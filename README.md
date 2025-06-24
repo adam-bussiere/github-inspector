@@ -27,3 +27,5 @@ pip install -r requirements.txt
 You also need to create a personal token with this link :
 [https://github.com/settings/tokens](https://github.com/settings/tokens)
 (Generate a classic one)
+
+[![DOI](https://zenodo.org/badge/1007584970.svg)](https://doi.org/10.5281/zenodo.15727645)
