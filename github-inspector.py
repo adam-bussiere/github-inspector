@@ -68,7 +68,7 @@ def inspect_path(repo, type: str, ref: str, path: str = ""):
         print(f"Erreur d'accès à {path} : {e.data.get('message', 'Inconnue')}")
 
 
-# ----------- Exploration simulation -----------#
+# ----------- Simulation of an exploration -----------#
 inspect_path(repo, "dir", branch, "")
 
 inspect_path(repo, "file", branch, "README.md")
