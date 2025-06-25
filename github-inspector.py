@@ -73,11 +73,8 @@ inspect_path(repo, "dir", branch, "")
 
 inspect_path(repo, "file", branch, "README.md")
 
-# Dossier spécifique
 inspect_path(repo, "dir", branch, "Data")
 
-# Fichier dans un sous-dossier
 inspect_path(repo, "file", branch, "Data/Example.zip")
 
-# Dossier dans un sous-dossier
 inspect_path(repo, "dir", branch, "docs/assets")
